@@ -25,6 +25,7 @@
 		E201F66128B373A1000376B9 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201F65F28B373A1000376B9 /* MessageCell.swift */; };
 		E201F66228B373A1000376B9 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E201F66028B373A1000376B9 /* MessageCell.xib */; };
 		E247082328AED4BF00557B4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E247082228AED4BF00557B4A /* GoogleService-Info.plist */; };
+		E25ACF7628BC9FC4008EB934 /* Authentication Erorrs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25ACF7528BC9FC4008EB934 /* Authentication Erorrs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		E201F65F28B373A1000376B9 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		E201F66028B373A1000376B9 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		E247082228AED4BF00557B4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E25ACF7528BC9FC4008EB934 /* Authentication Erorrs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Authentication Erorrs.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				E201F65B28B31E6C000376B9 /* Constatnts.swift */,
 				E201F65D28B340AA000376B9 /* Message.swift */,
+				E25ACF7528BC9FC4008EB934 /* Authentication Erorrs.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				E201F65A28B2CE3B000376B9 /* Firebase_services.swift in Sources */,
 				E201F65E28B340AA000376B9 /* Message.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
+				E25ACF7628BC9FC4008EB934 /* Authentication Erorrs.swift in Sources */,
 				E201F65C28B31E6C000376B9 /* Constatnts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,12 +15,14 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
     
+    var authenticationHandler = AuthenticationErrorsHandler()
+    
     @IBAction func registerPressed(_ sender: UIButton) {
         
         if let email = emailTextfield.text ,let password = passwordTextfield.text{
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                 if error != nil  {
-                    let alert = UIAlertController(title: "Alert", message: error?.localizedDescription, preferredStyle: .alert)
+                    let alert = UIAlertController(title: "Alert", message: self.authenticationHandler.errorsHandler(error: error as! AuthErrorCode), preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                 }
